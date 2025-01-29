@@ -26,8 +26,8 @@ namespace CardValidation.Tests.Features
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Credit Card Validation", ("  As a user\r\n  I want to validate my credit card details\r\n  So that I can confirm" +
-                " my payment method is valid"), global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Credit Card Validation", ("  As a user\n  I want to validate my credit card details\n  So that I can confirm m" +
+                "y payment method is valid"), global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
         
         private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
         
