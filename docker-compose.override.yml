@@ -5,5 +5,4 @@ services:
     command: ["dotnet", "test", "--logger:trx"]
     environment:
       - ASPNETCORE_ENVIRONMENT=Testing
-    volumes:
-      - ./TestResults:/app/TestResults  # Save test results
+
