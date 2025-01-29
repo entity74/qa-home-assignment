@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  test-runner:
+    build: .
+    container_name: test-runner
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Testing
+    volumes:
+      - .:/app
+    working_dir: /app/CardValidation.Tests
+    command: ["dotnet", "test", "--logger:trx", "--verbosity", "normal"]

@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  test-runner:
+    command: ["dotnet", "test", "--logger:trx"]
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Testing
+    volumes:
+      - ./TestResults:/app/TestResults  # Save test results
